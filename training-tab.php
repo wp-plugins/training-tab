@@ -26,12 +26,16 @@ function tt_installer() {
 	global $wpdb;
 require_once('functions/installer.php');
 }
-function tt_uninstaller() {
-	global $wpdb;
-require_once('functions/uninstall.php');
-}
+
+//function tt_uninstaller() {
+//	global $wpdb;
+//require_once('functions/uninstall.php');
+//}
+//register_deactivation_hook( __FILE__, 'tt_uninstaller' );
+
+
 register_activation_hook( __FILE__, 'tt_installer' );
-register_deactivation_hook( __FILE__, 'tt_uninstaller' );
+
 
 // include modules
 include('modules/tt_header.php');
