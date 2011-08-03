@@ -12,6 +12,7 @@ Training Tab is a WordPress plu­gin designed to help users get WordPress traini
 
 Training Tab is a WordPress plu­gin designed to assist admin­is­tra­tors who have train­ing doc­u­men­ta­tion for their end-users in the form of writ­ten doc­u­men­ta­tion, images, links and video instruc­tions. Post train­ing on your cus­tom WordPress site in train­ing tab to make learn­ing and using WordPress easy for your end-users. The plu­gin also allows for end-users to request new train­ing, either from TechStudio or any other developer.
 
+
 == Installation ==
 
 1. Download the plugin and extract it
