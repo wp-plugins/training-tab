@@ -4,7 +4,7 @@
 Plugin Name: Training Tab
 Plugin URI: http://techstudio.co/wordpress/plugins/training-tab
 Description: Training Tab is a WordPress plug-in designed to assist admin­is­tra­tors who have train­ing doc­u­men­ta­tion for their end-users in the form of writ­ten documentation, images, links and video instruc­tions. Post train­ing on your cus­tom WordPress site in train­ing tab to make learn­ing and using WordPress easy for your end-users. The plu­gin also allows for end-users to request new train­ing, either from TechStudio or any other developer. 
-Version: 1.0
+Version: 1.1
 Author: TechStudio
 Author URI: http://techstudio.co
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
