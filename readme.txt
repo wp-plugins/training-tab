@@ -25,8 +25,14 @@ Training Tab is a WordPress plu­gin designed to assist admin­is­tra­tors who
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1.1 =
+* Added a Description field to the Request Training form.
+* Fixed a problem which caused the WordPress to show the version incorrectly.
+* Modified the formatting of the Request Training form's alert e-mail.
+
 = 1.1 =
-* Fixed bug on the manage section - this was a cosmetic bug and did not prevent the plugin from functioning
+* Fixed a cosmetic bug on the Manage section.
 
 = 1.0 =
 * Initial release
