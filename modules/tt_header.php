@@ -13,7 +13,7 @@ function tt_header() {
 
 ?>
 <h2>Training Tab</h2>
-<p class="detailed-info">Version 1.0</p>
+<p class="detailed-info">Version 1.1</p>
 <p class="info">This training is being managed and displayed by the Training Tab WordPress plugin by TechStudio.</p>
 <ul class="plugin-info">
 	<li class="donate">
