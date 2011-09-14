@@ -4,13 +4,13 @@ Donate link: http://techstudio.co/wordpress/plugins/training-tab
 Tags: training
 Requires at least: 2.0.2
 Tested up to: 3.2.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 
-Training Tab is a WordPress plugin designed to help users get WordPress training in the form of documentation and instructional video.
+Training Tab is a WordPress plu­gin designed to help users get WordPress training in the form of documentation and instructional video.
 
 == Description ==
 
-Training Tab is a WordPress plugin designed to assist administrators who have training documentation for their end-users in the form of written documentation, images, links and video instructions. Post training on your custom WordPress site in training tab to make learning and using WordPress easy for your end-users. The plugin also allows for end-users to request new train­ing, either from TechStudio or any other developer.
+Training Tab is a WordPress plu­gin designed to assist admin­is­tra­tors who have train­ing doc­u­men­ta­tion for their end-users in the form of writ­ten doc­u­men­ta­tion, images, links and video instruc­tions. Post train­ing on your cus­tom WordPress site in train­ing tab to make learn­ing and using WordPress easy for your end-users. The plu­gin also allows for end-users to request new train­ing, either from TechStudio or any other developer.
 
 
 == Installation ==
@@ -21,9 +21,13 @@ Training Tab is a WordPress plugin designed to assist administrators who have tr
 
 == Frequently Asked Questions ==
 
+
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1.3 =
+* Modified capabilities required to access parts of the plugin. An administrator is required to manage training, while a contributor can view or request training. Subscribers have no access. A later feature modification will add the ability for capabilities to be defined dynamically using the management interface.
 
 = 1.1.2 =
 * Redesigned the TechStudio header.
