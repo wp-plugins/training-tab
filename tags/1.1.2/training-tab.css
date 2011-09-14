@@ -1,0 +1,134 @@
+.training-tab-wrapper {}
+.training-tab-wrapper .section {
+	background-color: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin: 8px 0 15px;
+	padding: 0 20px 15px;
+	width: 760px;
+	clear: both;
+	position: relative;
+}
+.training-tab-wrapper .section.table-of-contents {
+	border-color: #ff0000;
+	background-color: #e6e6e6;
+}
+.training-tab-wrapper .section.table-of-contents:hover {
+}
+.training-tab-wrapper h3 {
+	margin-bottom: 0;
+	padding: 0;
+	clear: both;
+}
+.training-tab-wrapper .section ul {
+	margin: 0 0 15px 10px;
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+.training-tab-wrapper .section ul li {
+}
+.training-tab-wrapper .section ul li ul {
+	margin-top: 5px;
+	margin-left: 20px;
+	list-style-type: lower-alpha;
+	list-style-position: inside;
+}
+.training-tab-wrapper .section ul a:hover {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+}
+.screencast-video object {
+	border: 2px solid #ccc;
+}
+.show-hide-acc {
+	width: 100px;
+	border: 1px solid #ccc;
+	font-size: 11px;
+	padding: 0 5px;
+	margin: 10px 0 0;
+	cursor: pointer;
+	text-align: center;
+}
+.show-hide-acc.over {
+	background: #eaeaea;
+}
+.tt-header {
+	width: 780px !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+}
+.tt-header .left {
+	float: left;
+	width: 460px;
+}
+.tt-header .right {
+	float: right;
+	width: 290px;
+	padding: 0 10px 0 0;
+}
+.paypal-donate-button {
+	width: 150px;
+	float: right;
+}
+.ads125 {
+	float: right;
+	width: 285px;
+	overflow: hidden;
+}
+.ads125 iframe {
+	padding: 0;
+	margin: 0 0 0 -5px;
+}
+.clear { clear:both; }
+.main-function-buttons {
+	margin: 3px 0 20px;
+}
+.section .main-function-buttons {
+	margin-top: 0;
+}
+.main-function-buttons form {
+	float: left;
+	margin: 0 4px 0 0;
+}
+.editing h5 {
+	display: block;
+}
+input.tt_title {
+	width: 250px;
+}
+.editing .show-hide-wrapper {
+	margin-bottom: 20px;
+}
+.training-tab-wrapper .notices {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 3px dashed #FF0000;
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	height: 38px;
+	left: 900px;
+	line-height: 38px;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+}
+#request_form h5 {
+	display: inline;
+	padding-right: 10px;
+	width: 100px;
+}
+#request_form label.error {
+	font-size: 11px;
+	padding-left: 10px;
+}
+.manage-response {
+	border-color: #ff0000 !important;
+	border-style: dashed !important;
+	background: #FCF0AD !important;
+	padding: 0 20px !important;
+}
+.manage-response p {
+	font-weight: bold;
+	font-variant: italic;
+}
