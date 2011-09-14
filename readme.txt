@@ -21,6 +21,11 @@ Training Tab is a WordPress plu­gin designed to assist admin­is­tra­tors who
 
 == Frequently Asked Questions ==
 
+Q: Who can see training and who can manage it?
+A: To see training a user must be a contributor or better. To manage training a user must be an administrator. If you are dabbling with user capabilities, there are a few more specifics. A later version of the plugin will allow managers to set capabilities required to view, manage or request training.
+
+Q: Where do I go to view the training?
+A: View your training as a contributor user or better in the WordPress dashboard. Currently, training is only visible in the dashboard as the plugin is designed for WordPress webmasters who need training and instructions from their developers.
 
 == Screenshots ==
 
