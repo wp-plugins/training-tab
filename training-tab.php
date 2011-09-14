@@ -4,7 +4,7 @@
 Plugin Name: Training Tab
 Plugin URI: http://techstudio.co/wordpress/plugins/training-tab
 Description: Training Tab is a WordPress plug-in designed to assist admin­is­tra­tors who have train­ing doc­u­men­ta­tion for their end-users in the form of writ­ten documentation, images, links and video instruc­tions. Post train­ing on your cus­tom WordPress site in train­ing tab to make learn­ing and using WordPress easy for your end-users. The plu­gin also allows for end-users to request new train­ing, either from TechStudio or any other developer. 
-Version: 1.1.2
+Version: 1.1.3
 Author: TechStudio
 Author URI: http://techstudio.co
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -63,10 +63,8 @@ add_action('admin_menu', 'plugin_menu');
 function tt_stylesheet() {
     $prepath = WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__));
     echo '<link rel="stylesheet" type="text/css" href="' . $prepath . 'training-tab.css" />' . "\n";
-    echo '<script type="text/javascript" src="http://techstud.io/js/masonry/masonry.jquery.min.js"></script>';
-    echo '<script type="text/javascript" src="' . $prepath . 'jquery.validate.min.js"></script>' . "\n";
-    echo '<script type="text/javascript" src="http://techstud.io/js/jquery.scrollTo-1.4.2-min.js"></script>';
-    echo '<script type="text/javascript" src="' . $prepath . 'training-tab.jquery.js"></script>' . "\n";
+    echo '<script type="text/javascript" src="' . $prepath . 'js/jquery.validate.min.js"></script>' . "\n";
+    echo '<script type="text/javascript" src="' . $prepath . 'js/training-tab.jquery.js"></script>' . "\n";
 }
 
 add_action('admin_head', 'tt_stylesheet');
