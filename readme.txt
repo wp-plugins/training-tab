@@ -4,7 +4,7 @@ Donate link: http://techstudio.co/wordpress/plugins/training-tab
 Tags: training
 Requires at least: 2.0.2
 Tested up to: 3.2.1
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 
 Training Tab is a WordPress plu­gin designed to help users get WordPress training in the form of documentation and instructional video.
 
@@ -30,6 +30,9 @@ A: View your training as a contributor user or better in the WordPress dashboard
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1.4 =
+* Fixed a bug which caused the request forms to email to the hardcoded address even when a manual address was supplied.
 
 = 1.1.3 =
 * Modified capabilities required to access parts of the plugin. An administrator is required to manage training, while a contributor can view or request training. Subscribers have no access. A later feature modification will add the ability for capabilities to be defined dynamically using the management interface.
